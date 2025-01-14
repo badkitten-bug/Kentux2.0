@@ -37,7 +37,7 @@ const category = categories.find(
 <Layout
   title={post.data.title}
   desc={post.data.excerpt}
-  ogimage={post.data.image}>
+  ogimage={post?.data?.image ?? ''}>
   <Container>
     <div class="max-w-screen-md mx-auto">
       <div class="text-center">
@@ -53,9 +53,9 @@ const category = categories.find(
         <div class="flex items-center gap-3">
           <div class="relative flex-shrink-0">
             {
-              author.image && (
+              author?.image && (
                 <Image
-                  src={author.image}
+                  src={author?.image ?? ''}
                   alt="Author Photo"
                   width={80}
                   height={80}
@@ -68,7 +68,7 @@ const category = categories.find(
 
           <div>
             <p class="text-gray-800 dark:text-gray-400">
-              {author.name}
+              {author?.name ?? ''}
             </p>
             <div class="flex items-center space-x-2 text-sm">
               <time

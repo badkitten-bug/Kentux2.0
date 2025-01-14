@@ -9,9 +9,9 @@ const { author } = Astro.props;
   <div class="flex flex-wrap items-start gap-3 sm:flex-nowrap sm:gap-6">
     <div class="relative flex-shrink-0 mt-1">
       {
-        author.image && (
+        author?.image && (
           <Image
-            src={author.image}
+            src={author?.image ?? ''}
             alt="Author Photo"
             width="96"
             height="96"
@@ -24,7 +24,7 @@ const { author } = Astro.props;
     <div>
       <div>
         <p class="text-lg font-medium text-gray-800 dark:text-gray-300">
-          About {author.name}
+          About {author?.name ?? ''}
         </p>
       </div>
       <div class="mt-3">
