@@ -1,6 +1,8 @@
 import marioImage from "../assets/authors/mario.webp";
 import roxanaImage from "../assets/authors/roxana.webp";
 import steveImage from "../assets/authors/steve.webp";
+import joseImage from "../assets/authors/joseflores.webp";
+
 export interface Props {
   name: string;
   slug: string;
@@ -22,6 +24,12 @@ export const authors: Props[] = [
     slug: "steve-gomez",
     image: steveImage,
     bio: "Steve is a Project Manage Engineer. A Data Analytics at Acme, specializing in the use of cloud infrastructure for Machine Learning and Deep Learning operation at scale.",
+  },
+  {
+    name: "Jose Flores",
+    slug: "jose-flores",
+    image: joseImage,
+    bio: "He's the only person that said the true :c",
   },
   {
     name: "Roxana Ingaruca",
