@@ -5,6 +5,7 @@ const BlogPosts = defineCollection({
     z.object({
       title: z.string(),
       excerpt: z.string(),
+      linkSite: z.string().optional(),
       category: z.string().trim(),
       author: z.string().trim(),
       draft: z.boolean().optional(),

@@ -29,7 +29,7 @@ export const authors: Props[] = [
     name: "Jose Flores",
     slug: "jose-flores",
     image: joseImage,
-    bio: "He's the only person that said the true :c",
+    bio: "Jose is a Frontend developer. President of Development Area at IEEE CS UNTELS.",
   },
   {
     name: "Roxana Ingaruca",

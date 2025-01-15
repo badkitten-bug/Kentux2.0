@@ -44,10 +44,11 @@ const category = categories.find(
         <Label theme={category.color}>{category.title}</Label>
       </div>
 
-      <h1
-        class="mt-2 mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
-        {post.data.title}
-      </h1>
+      <div class="flex justify-center">
+        <a href={post?.data?.linkSite ?? '#'} target="_blank" class="cursor-pointer mt-2 mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
+          {post.data.title}
+          </a>
+      </div>
 
       <div class="flex justify-center mt-3 space-x-3 text-gray-500">
         <div class="flex items-center gap-3">
