@@ -15,7 +15,7 @@ export const categories: Props[] = [
       "Keep up with the latest tech trends and learn about the latest innovations in software development, hardware design, cybersecurity, and more.",
   },
   {
-    title: "Education",
+    title: "Educación y Tecnología",
     slug: "education",
     color: "orange",
     description:
@@ -49,4 +49,11 @@ export const categories: Props[] = [
     description:
       "Get insights and inspiration from the world of design, with articles covering graphic design, product design, interior design, and more.",
   },
+  {
+    title: "Software Design",
+    slug: "software",
+    color: "blue",
+    description:
+      "Learn about the principles and best practices of software design, with articles covering topics like architecture, patterns, and methodologies.",
+  }
 ];

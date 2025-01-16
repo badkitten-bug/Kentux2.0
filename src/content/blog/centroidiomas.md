@@ -3,10 +3,10 @@ title: "Centro Idiomas Untels"
 excerpt: Landing Page para un centro de idiomas, realizada de antemano por un diseño en Figma. Cuenta con un formulario de contacto y Lazy Loading para las imágenes. Realizada con React y un Design System."
 publishDate: "2023-01-15T11:39:36.050Z"
 image: "../../assets/blog/centroidiomas-mockup.webp"
-category: "education"
+category: "software"
 author: "jose-flores"
 linkSite: "https://centro-idiomas.vercel.app/"
-tags: [design, interior]
+tags: [design, software]
 ---
 
 # Centro Idiomas Untels

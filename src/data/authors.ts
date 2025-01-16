@@ -15,15 +15,15 @@ export type Author = Props;
 export const authors: Props[] = [
   {
     name: "Jorge Silvestre",
-    slug: "mario-sanchez",
+    slug: "jorge-silvestre",
     image: marioImage,
-    bio: "Mario is a Staff Engineer specialising in Frontend at Vercel, as well as being a co-founder of Acme and the content management system Sanity. Prior to this, he was a Senior Engineer at Apple.",
+    bio: "Jorge is a Senior Engineer specialising in backend with Java, as well as being a co-founder of Kentux.",
   },
   {
     name: "Steve Gomez",
     slug: "steve-gomez",
     image: steveImage,
-    bio: "Steve is a Project Manage Engineer. A Data Analytics at Acme, specializing in the use of cloud infrastructure for Machine Learning and Deep Learning operation at scale.",
+    bio: "Steve is a Project Manage Engineer. A Data Analytics at Kentux, specializing in the use of cloud infrastructure for Machine Learning and Deep Learning operation at scale.",
   },
   {
     name: "Jose Flores",
@@ -35,6 +35,6 @@ export const authors: Props[] = [
     name: "Roxana Ingaruca",
     slug: "roxana-ingaruca",
     image: roxanaImage,
-    bio: "Erika Oliver is a successful entrepreuner. She is the founder of Acme Inc, a bootstrapped business that builds affordable SaaS tools for local news, indie publishers, and other small businesses.",
+    bio: "Roxana is a successful entrepreuner. She is the founder of Acme Inc, a bootstrapped business that builds affordable SaaS tools for local news, indie publishers, and other small businesses.",
   },
 ];
