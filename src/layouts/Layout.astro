@@ -19,7 +19,7 @@ const resolvedOGImage = checkImageUrl(ogimage, Astro.site);
 
 const makeTitle = title
   ? title + " | " + "kentux"
-  : "Kentux — Website built with Astro & MDX";
+  : "Kentux — portfolio Website";
 ---
 
 <!DOCTYPE html>
@@ -35,8 +35,8 @@ const makeTitle = title
         "Kentux website"}
       canonical={canonicalURL}
       twitter={{
-        creator: "@/surjithctly",
-        site: "@/web3templates",
+        creator: "@/steve",
+        site: "@/kentux.tech",
         card: "summary_large_image",
       }}
       openGraph={{
@@ -47,7 +47,7 @@ const makeTitle = title
           image: resolvedOGImage,
         },
         image: {
-          alt: "Stablo Screenshot",
+          alt: "kentux Screenshot",
         },
       }}
     />
